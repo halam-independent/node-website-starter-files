@@ -4,7 +4,7 @@ git branch: ‘master’, url: ‘https://github.com/halam-independent/node-webs
 sh ‘npm install’
 }
 stage (‘Code analyse’) {
-sh ‘echo “Run some lints”’
+ ‘echo “Run some lints”’
 }
 stage (‘Unit test’) {
 sh ‘echo “Tests will back”’
