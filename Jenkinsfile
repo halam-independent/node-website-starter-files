@@ -1,5 +1,5 @@
 node {
-stage (‘Prepare environment’) {
+stage (‘Prepare_environment’) {
 git branch: ‘master’, url: ‘https://github.com/halam-independent/node-website-starter-files.git’
 sh ‘npm install’
 }
